@@ -1,0 +1,167 @@
+# Escrever documentação do codigo.
+
+# Informações do site
+site_name: Portfólio - Klemerson Gomes
+#site_url: "" 
+#site_author:
+site_description: >-
+    Portfólio contendo todos os projetos desenvolvidos por mim e informações sobre minha trajetória na área de Dados e TI
+
+theme:
+
+
+# Repositorio
+repo_name: KlemersonGomes - GitHub
+repo_url: https://github.com/KlemersonGomes
+
+# Configuração
+theme:
+  name: null
+  custom_dir: !ENV [THEME_DIR, "material"]
+    
+  favicon: material/library 
+   
+
+# Arquivos estáticos
+  static_templates:
+    - 404.html
+
+# Não incluir o JavaScript do MkDocs
+  include_search_page: false
+  search_index_only: true
+
+# Valores padrões, retirados de mkdocs_theme.yml
+  language: pt
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.sections
+    - navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.expand
+    #- toc.follow
+    # - toc.integrate
+    - navigation.footer
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Ativar Modo Claro
+    - scheme: default
+      primary: light blue
+      accent: orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Ativar Modo Escuro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  #favicon: assets/favicon.png
+  icon:
+    logo: database-eye
+
+# Plugins
+
+#  - search
+#  - redirects:
+#      redirect_maps:
+#        changelog/insiders.md: insiders/changelog.md
+#        reference/meta-tags.md: reference/index.md
+#        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
+#        sponsorship.md: insiders/index.md
+#        upgrading.md: upgrade.md
+#  - minify:
+#      minify_html: true
+
+# Customização
+extra:
+  social:
+      - icon: fontawesome/brands/linkedin 
+        link: https://www.linkedin.com/in/klemerson-gomes-04032b115/
+  generator: false
+# extra_javascript:
+#   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+#   - javascripts/tablesort.js
+#  analytics:
+#    provider: google
+#    property: !ENV GOOGLE_ANALYTICS_KEY
+
+# Extensões
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
+  
+
+# Árvore de páginas
+nav:
+  - Início: index.md
+  - Projetos Power BI:
+    - Dashboard Vendas: 
+      - Vendas: projetos/dashboard_vendas/vendas.md
+    # - Dashboard Comercial: 
+    #   - Apresentação: ""
+    # - Dashboard Financeiro:
+    #   - Apresentação: ""
+    # - Dashboard Logística:
+    #   - Apresentação: ""
+    # - Dashboard Saúde: 
+    #   - Apresentação: ""
+  - Minha Trajetória (Carreira):
+        - Minha Trajetória : projetos/trajetoria/trajetoria.md
+   
+
+markdown extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      
+#dev_addr: '0.0.0.0:8080'

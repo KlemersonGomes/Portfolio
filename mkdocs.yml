@@ -52,18 +52,19 @@ theme:
     # - toc.integrate
     - navigation.footer
   palette:
-    - scheme: slate
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/toggle-switch
-        name: Ativar Modo Claro
     - scheme: default
       primary: light blue
       accent: orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Ativar Modo Escuro
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Ativar Modo Claro
+    
   font:
     text: Roboto
     code: Roboto Mono
@@ -144,9 +145,7 @@ markdown_extensions:
 # Árvore de páginas
 nav:
   - Início: index.md
-  - Projetos Power BI:
-    - Dashboard Vendas: 
-      - Vendas: projetos/dashboard_vendas/vendas.md
+  - Projetos Power BI: projetos/projetos_pbi.md
     # - Dashboard Comercial: 
     #   - Apresentação: ""
     # - Dashboard Financeiro:
@@ -155,7 +154,7 @@ nav:
     #   - Apresentação: ""
     # - Dashboard Saúde: 
     #   - Apresentação: ""
-  - Minha Trajetória (Carreira):
+  - Sobre mim (Carreira):
         - Minha Trajetória : projetos/trajetoria/trajetoria.md
    
 

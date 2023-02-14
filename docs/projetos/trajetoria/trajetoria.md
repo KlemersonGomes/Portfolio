@@ -8,6 +8,36 @@
     - **Formação**: Bacharelado em Sistemas de Informações (2014 - 2019)
     - **Tempo de carreira**: Mais de 3 anos de experiência comprovada nas área de Tecnologia e Analytics (2020 - Até o Momento)
 
+??? tldr "Ferramentas e Tecnologias"
+    - **Analytics**:
+        - Python
+        - R 
+        - Power BI
+        - Tableau
+        - SQL
+        - Excel
+        - ETL
+    - **Linguagens de Programação**:
+        - Java
+        - Javascript
+        - HTML
+        - CSS
+    - **Banco de Dados**:
+        - Microsoft SQL Server 
+        - Oracle
+        - PL/SQL
+        - SSIS
+    - **Cloud**:
+        - AWS
+        - Azure
+    - **Metodologia ágil**:
+        - Scrum
+        - Jira
+        - Trello
+
+
+
+
 ## __Carreira__
 
 ??? tldr "Analista de Sistemas - Indra Company"
